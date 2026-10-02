@@ -1,4 +1,4 @@
-# MagMutual-TakeHomeAssessment
+# User Microservice
 
 ## Setup
 
