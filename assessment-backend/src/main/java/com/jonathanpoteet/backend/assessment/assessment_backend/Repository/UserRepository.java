@@ -77,7 +77,7 @@ public class UserRepository {
             user.setLastname(rs.getString("lastname"));
             user.setEmail(rs.getString("email"));
             user.setProfession(rs.getString("profession"));
-            user.setDateCreated(rs.getString("dateCreated"));
+            user.setDateCreated(rs.getDate("dateCreated"));
             user.setCountry(rs.getString("country"));
             user.setCity(rs.getString("city"));
             return user;
@@ -97,12 +97,12 @@ public class UserRepository {
 
         jdbcTemplate.execute("""
             CREATE TABLE IF NOT EXISTS users (
-                id INTEGER PRIMARY KEY,
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
                 firstname TEXT,
                 lastname TEXT,
                 email TEXT,
                 profession TEXT,
-                dateCreated TEXT,
+                dateCreated DATE,
                 country TEXT,
                 city TEXT
             )

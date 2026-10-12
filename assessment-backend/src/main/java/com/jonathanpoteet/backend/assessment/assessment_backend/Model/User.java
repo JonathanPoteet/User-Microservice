@@ -21,8 +21,8 @@ public class User {
     @Schema(example = "Teacher")
     private String profession;
 
-    @Schema(example = "2025-01-21")
-    private String dateCreated;
+    @Schema(example = new java.util.Date())
+    private Date dateCreated;
 
     @Schema(example = "Turkey")
     private String country;
@@ -73,11 +73,11 @@ public class User {
         this.profession = profession;
     }
 
-    public String getDateCreated() {
+    public Date getDateCreated() {
         return dateCreated;
     }
 
-    public void setDateCreated(String dateCreated) {
+    public void setDateCreated(Date dateCreated) {
         this.dateCreated = dateCreated;
     }
 

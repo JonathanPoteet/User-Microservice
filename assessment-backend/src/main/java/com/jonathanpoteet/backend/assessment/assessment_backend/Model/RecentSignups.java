@@ -1,7 +1,7 @@
 package com.jonathanpoteet.backend.assessment.assessment_backend.Model;
 
 public record RecentSignups(
-    String dateCreated,
+    Date dateCreated,
     String city,
     String profession
 ) {}
