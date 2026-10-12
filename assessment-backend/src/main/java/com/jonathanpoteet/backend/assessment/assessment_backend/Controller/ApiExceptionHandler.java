@@ -1,4 +1,4 @@
-package com.jonathanpoteet.magmutual.assessment.assessment_backend.Controller;
+package com.jonathanpoteet.backend.assessment.assessment_backend.Controller;
 
 import java.util.Map;
 

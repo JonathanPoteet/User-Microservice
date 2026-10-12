@@ -1,4 +1,4 @@
-package com.jonathanpoteet.magmutual.assessment.assessment_backend.Repository;
+package com.jonathanpoteet.backend.assessment.assessment_backend.Repository;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -15,8 +15,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.jonathanpoteet.magmutual.assessment.assessment_backend.Model.User;
-import com.jonathanpoteet.magmutual.assessment.assessment_backend.StartupHelper.StartupHelperService;
+import com.jonathanpoteet.backend.assessment.assessment_backend.Model.User;
+import com.jonathanpoteet.backend.assessment.assessment_backend.StartupHelper.StartupHelperService;
 
 @Repository
 public class UserRepository {

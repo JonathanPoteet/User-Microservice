@@ -1,4 +1,4 @@
-package com.jonathanpoteet.magmutual.assessment.assessment_backend.Controller;
+package com.jonathanpoteet.backend.assessment.assessment_backend.Controller;
 
 import java.util.List;
 import java.util.Map;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jonathanpoteet.magmutual.assessment.assessment_backend.Model.RecentSignups;
-import com.jonathanpoteet.magmutual.assessment.assessment_backend.Model.User;
-import com.jonathanpoteet.magmutual.assessment.assessment_backend.Service.UserService;
+import com.jonathanpoteet.backend.assessment.assessment_backend.Model.RecentSignups;
+import com.jonathanpoteet.backend.assessment.assessment_backend.Model.User;
+import com.jonathanpoteet.backend.assessment.assessment_backend.Service.UserService;
 
 @RestController
 @RequestMapping("/api")

@@ -1,4 +1,4 @@
-package com.jonathanpoteet.magmutual.assessment.assessment_backend.Model;
+package com.jonathanpoteet.backend.assessment.assessment_backend.Model;
 
 public record RecentSignups(
     String dateCreated,

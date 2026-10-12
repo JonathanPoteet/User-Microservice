@@ -8,7 +8,7 @@
 		<version>4.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.jonathanpoteet.magmutual.assessment</groupId>
+	<groupId>com.jonathanpoteet.backend.assessment</groupId>
 	<artifactId>assessment-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>assessment-backend</name>

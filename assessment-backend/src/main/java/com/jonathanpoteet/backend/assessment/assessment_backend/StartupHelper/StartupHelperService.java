@@ -1,4 +1,4 @@
-package com.jonathanpoteet.magmutual.assessment.assessment_backend.StartupHelper;
+package com.jonathanpoteet.backend.assessment.assessment_backend.StartupHelper;
 
 import java.io.BufferedReader;
 import java.io.IOException;

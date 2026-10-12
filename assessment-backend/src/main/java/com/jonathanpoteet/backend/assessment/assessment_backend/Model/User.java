@@ -1,4 +1,4 @@
-package com.jonathanpoteet.magmutual.assessment.assessment_backend.Model;
+package com.jonathanpoteet.backend.assessment.assessment_backend.Model;
 
 
 import io.swagger.v3.oas.annotations.media.Schema;

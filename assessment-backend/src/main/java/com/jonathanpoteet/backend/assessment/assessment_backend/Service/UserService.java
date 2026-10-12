@@ -1,12 +1,12 @@
-package com.jonathanpoteet.magmutual.assessment.assessment_backend.Service;
+package com.jonathanpoteet.backend.assessment.assessment_backend.Service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.jonathanpoteet.magmutual.assessment.assessment_backend.Model.RecentSignups;
-import com.jonathanpoteet.magmutual.assessment.assessment_backend.Model.User;
-import com.jonathanpoteet.magmutual.assessment.assessment_backend.Repository.UserRepository;
+import com.jonathanpoteet.backend.assessment.assessment_backend.Model.RecentSignups;
+import com.jonathanpoteet.backend.assessment.assessment_backend.Model.User;
+import com.jonathanpoteet.backend.assessment.assessment_backend.Repository.UserRepository;
 
 @Service
 public class UserService {

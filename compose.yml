@@ -2,7 +2,7 @@ services:
   backend:
     build:
       context: ./assessment-backend
-    container_name: magmutual-backend
+    container_name: assessment-backend
     ports:
       - "8080:8080"
     environment:
@@ -13,7 +13,7 @@ services:
   frontend:
     build:
       context: ./assessment-frontend
-    container_name: magmutual-frontend
+    container_name: assessment-frontend
     ports:
       - "3000:80"
     depends_on:
