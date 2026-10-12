@@ -102,7 +102,7 @@ public class UserRepository {
                 lastname TEXT,
                 email TEXT,
                 profession TEXT,
-                dateCreated DATE,
+                dateCreated DATE DEFAULT CURRENT_TIMESTAMP,
                 country TEXT,
                 city TEXT
             )
