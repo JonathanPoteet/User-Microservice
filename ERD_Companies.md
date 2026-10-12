@@ -15,12 +15,12 @@ Request: HR needs to associate users with various Companies. Can you model what 
 - 5. `employees`
 
 
-### Direct Many-to-Many Relationship (This is the situation I recommend for this specific scenario)
-* **Use Case:** A single user can belong to many companies at a time. A single user may be associated with multiple companies, and a company may have multiple users.
+### Direct One-to-Many Relationship (This is the situation I recommend for this specific scenario)
+* **Use Case:** A single user can belong to only one company at a time. A company may have multiple users.
 
 ```mermaid
 erDiagram
-    USERS ||--o{ EMPLOYEES : "has"
+    USERS ||--|| EMPLOYEES : "has"
     COMPANIES ||--o{ EMPLOYEES : "employs"
 
     USERS {
@@ -29,7 +29,7 @@ erDiagram
         string lastname
         string email
         string profession
-        string dateCreated
+        date dateCreated
         string country
         string city
     }
@@ -44,7 +44,7 @@ erDiagram
 
     EMPLOYEES {
         int id PK
-        int user_id FK
+        int user_id FK UNIQUE
         int company_id FK
         date start_date
         date end_date
